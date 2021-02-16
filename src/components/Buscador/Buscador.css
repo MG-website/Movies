@@ -1,0 +1,44 @@
+.cnt {
+    padding-top: 10px;
+}
+.form-container {
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.form-container button {
+    margin-left: 20px;
+}
+.label {
+    padding-right: 10px;
+}
+
+.contenedorBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.527);
+    border: 1px solid black;
+    width: 40%;
+    justify-content: space-between;
+}
+.a{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    border: none;
+    width: auto;
+}
+.btn{
+    padding: 0px;
+    width: 80px;
+    height: auto;
+    background-color:rgb(122, 112, 63);
+    border-radius: 4px;
+}
+.btn:hover{
+    font-size: 20px;
+}
