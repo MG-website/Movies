@@ -1,10 +1,9 @@
 # Redux OMDB APP
 
-En este ejercicio vamos a crear una APP que utilice la API de [OMDB](http://www.omdbapi.com/). Vamos a crear nuestra app utilizando __REACT__ y __REDUX__.
+En esta es una APP que utiliza la API de [OMDB](http://www.omdbapi.com/)  utilizando __REACT__ y __REDUX__.
 
-> Vamos a necesitar una APIKEY ya que la API de OMDB es paga. Usen `apikey=20dac387`
 
-Con tu App podremos:
+Con la App podremos:
 
 * Buscar películas y listarlas.
 * Poder ver todos los detalles de una película en particular.
@@ -25,4 +24,8 @@ npm install
 Para poder ultilizar esta mini app primero debes hacer:
 ```javascript
 npm start
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 35f6ed40cd3b89d3f78a006ea907a0da723a0302
