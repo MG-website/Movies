@@ -24,8 +24,4 @@ npm install
 Para poder ultilizar esta mini app primero debes hacer:
 ```javascript
 npm start
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 35f6ed40cd3b89d3f78a006ea907a0da723a0302
