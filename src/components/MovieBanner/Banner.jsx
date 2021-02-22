@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   },
   img:{
       height: 200,
-    
+      minWidth:150
   },
   container:{
     display:'flex',
@@ -34,10 +34,12 @@ const useStyles = makeStyles({
   containerCard:{
     display:'flex',
     flexDirection:'row',
+    
   },
   imgContainer:{
-      height:'15%',
-
+    display: 'flex',
+    justifyContent: 'center',
+    width: '100%',
   }
 
 

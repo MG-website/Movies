@@ -31,13 +31,15 @@ const useStyles = makeStyles({
     display:'flex',
     flexDirection:'row',
     margin:'1rem',
-    backgroundColor:'#ffffff17'
+    backgroundColor:'#ffffff17',
+    flexWrap: 'wrap'
   },
   containerCard:{
     display:'flex',
     flexDirection:'row',
     justifyContent:'space-around',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
+    maxWidth:'550px',
   }
 
 });
