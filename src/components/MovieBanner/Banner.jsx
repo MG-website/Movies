@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import React from 'react'
+import { useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -58,7 +58,7 @@ console.log('DATOS MOVIES', movies)
 const HandleRedirect = (url) =>{
   History.push(`/movie/${url}`)
 }
-const [slice, SetSlice] = useState(Math.trunc(movies.length /2))
+const slice = Math.trunc(movies.length /2)
   return (
     <Container className={classes.containerCard} >
 { movies && movies.slice(0,slice).map((m)=>(
@@ -67,7 +67,7 @@ const [slice, SetSlice] = useState(Math.trunc(movies.length /2))
         <CardContent className={classes.container}>
             <Container className={classes.imgContainer}>
 
-        <img src={m.Poster} className={classes.img}></img>
+        <img src={m.Poster} className={classes.img} alt='imagen de poster de pelicula'></img>
             </Container>
         </CardContent>
       </CardActionArea>

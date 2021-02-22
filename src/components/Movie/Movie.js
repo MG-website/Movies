@@ -55,11 +55,12 @@ export default function Movie(props) {
 
   useEffect(()=>{
        Dispatch(getMovieDetail(id));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
   },[id])
   return (
  <>
     <Card className={classes.container}>
-    <img src={movieDetail.Poster}/>
+    <img src={movieDetail.Poster} alt='imagen poster de pelicula'/>
     <Container className={classes.containerCard}>
     <Typography gutterBottom variant="h5" component="h2">
             {movieDetail.Title}

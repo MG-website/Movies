@@ -102,7 +102,7 @@ const HandleRedirect = (url) =>{
           title="Contemplative Reptile"
         />
         <CardContent className={classes.container}>
-        <img src={m.Poster} className={classes.img}></img>
+        <img src={m.Poster} className={classes.img} alt='poster de la pelicula'></img>
         <div>
           <Typography gutterBottom variant="h5" component="h2">
             {m.Title}

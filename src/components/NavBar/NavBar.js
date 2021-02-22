@@ -8,7 +8,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import { NavLink, useHistory } from 'react-router-dom';
 import { Button } from '@material-ui/core';
 import { useDispatch, useSelector } from 'react-redux';
-import { getMovieDetail, getMovies } from '../../actions';
+import { getMovies } from '../../actions';
 const useStyles = makeStyles((theme) => ({
 
 NavItem:{
