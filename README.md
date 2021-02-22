@@ -26,4 +26,4 @@ Para poder ultilizar esta mini app primero debes hacer:
 npm start
 ```
 ### Puedes ver el sitio  deployado en vercel:
-Ingresa el siguiente enlace https://movies-adot9hy0e-mg-website.vercel.app/
+Ingresa el siguiente enlace https://movies-p2u4ycr4u-mg-website.vercel.app/
