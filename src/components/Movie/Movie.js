@@ -1,65 +1,6 @@
-// import React from 'react';
-// import { connect } from 'react-redux';
-// import { getMovieDetail  } from '../../actions/index';
-
-// import './Movie.css';
-
-
-// class Movie extends React.Component {
-
-
-//    componentDidMount(){ // se pone este componente para primero obtener los datos
-//     const movieId = this.props.match.params.id;
-//     this.props.getMovieDetail(movieId);
-//    }
-
-//     render() {
-//         if(!this.props.detail)return <h1>Cargando...</h1>
-//         return (
-//             <div className="container">                
-//                 <h1 className='title'>{this.props.detail.Title} <span>R</span></h1>
-//                 <p className='description'>{this.props.detail.Plot}</p>
-//                 <div className='columnas'>
-//                     <div className='img'>
-//                     <img src={this.props.detail.Poster} alt='imagen de pelicula'></img>
-//                     </div>
-//                 <div>
-//                 <ul className='movie-card'>
-//                 <h4>{this.props.detail.Director}</h4>
-//                 <li> <strong>Origen:</strong>{this.props.detail.Country}</li>
-//                 <li> <strong>Genero:</strong> {this.props.detail.Genre}</li>
-//                 <li> <strong>Idioma:</strong> {this.props.detail.Language}</li>
-//                 <li> <strong>Productora:</strong> {this.props.detail.Production}</li>
-//                 <li> <strong>Año:</strong> {this.props.detail.Year}</li>
-//                 </ul>
-
-//                 </div>
-//                 </div>
-             
-                
-//             </div>
-//         );
-//     }
-// }
-
-
-// /* export default (Movie); */
-// function mapStateToProps(state){
-//     return {
-//       detail: state.movieDetail
-//     }
-//   }
-  
-//   export default connect(mapStateToProps,{getMovieDetail})(Movie);
-  
 import React, { useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { useDispatch, useSelector } from 'react-redux';
 import { getMovieDetail } from '../../actions';

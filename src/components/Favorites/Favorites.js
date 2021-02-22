@@ -1,8 +1,7 @@
-import React, { Component } from "react";
- import { connect, useDispatch, useSelector } from "react-redux";
- import {addMovieFavorite} from '../../actions';
+import React from "react";
+ import { useDispatch, useSelector } from "react-redux";
  import { removeMovieFavorite } from "../../actions/index";
- import { Link, NavLink } from 'react-router-dom';
+ import { NavLink } from 'react-router-dom';
  import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
@@ -89,39 +88,6 @@ function Favorites() {
 }
 
 export default Favorites
-
-
-// export class ConnectedList extends Component {
-
-//   render() {
-//     return (
-//       <div>
-//         <h2>Películas Favoritas</h2>
-//         <ul>
-//          { this.props.Favorites.map(m =>{
-//            return( <li key={m.id} className='contenedorBtn'>
-//             <Link to={`/movie/${m.id}`} className='a'>
-//             <p>{m.title}</p>
-//             </Link>
-//               <button  className='btn' onClick={ (e)=>this.props.removeMovieFavorite(m)}>x</button>
-//            </li>
-//            )
-//          })}
-//         </ul>
-//       </div>
-//     );
-//   }
-// }
-// function mapStateToProps(state){
-//   return {
-//     Favorites: state.movies
-//   }
-// }
-
-// export default connect(mapStateToProps,{addMovieFavorite,removeMovieFavorite})(ConnectedList);
-
-/* export default (ConnectedList);
- */
 
 
 

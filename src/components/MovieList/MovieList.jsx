@@ -1,15 +1,8 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { NavLink, useHistory } from 'react-router-dom'
+import {useHistory } from 'react-router-dom'
 import { addMovieFavorite } from '../../actions'
 import { makeStyles } from '@material-ui/core/styles';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
